@@ -1,5 +1,9 @@
 import './index.css';
+import ExampleBrokenStateUpdate from './ExampleBrokenStateUpdate';
+import ExampleEvents from './ExampleEvents';
 import ExampleProps from './ExampleProps';
+import ExampleState from './ExampleState';
+import ExampleStyleProp from './ExampleStyleProp';
 
 function Header(props) {
   return (
@@ -16,6 +20,25 @@ export default function App() {
     <>
       <Header mode="dark" />
       <ExampleProps />
+      <ExampleState />
+      <ExampleEvents />
+      <ExampleStyleProp />
+      <ExampleBrokenStateUpdate />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
