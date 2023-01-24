@@ -1,14 +1,19 @@
 import './index.css';
 import ExampleBrokenStateUpdate from './ExampleBrokenStateUpdate';
+import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunction from './ExampleClassToFunction';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleControlledCheckbox from './ExampleControlledCheckbox';
 import ExampleEvents from './ExampleEvents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleProps from './ExampleProps';
 import ExamplePropsDestructuringAndMapping from './ExamplePropsDestructuringAndMapping';
+import ExamplePropTypes from './ExamplePropTypes';
 import ExampleState from './ExampleState';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStyleProp from './ExampleStyleProp';
+import ExampleUpdatingStateWithArrays from './ExampleUpdatingStateWithArrays';
+import ExampleUseEffectDataFetching from './ExampleUseEffectDataFetching';
 
 function Header(props) {
   return (
@@ -69,6 +74,49 @@ export default function App() {
       <br />
       <br />
       <ExampleLiftingStateUp />
+      <br />
+      <br />
+      <br />
+      <br />
+      <ExampleChildrenProps />
+      <br />
+      <br />
+      <br />
+      <ExamplePropTypes />
+      <br />
+      <br />
+      <br />
+      <ExampleControlledCheckbox />
+      <br />
+      <br />
+      <br />
+      <ExampleUpdatingStateWithArrays />
+      <br />
+      <br />
+      <br />
+      <ExampleUseEffectDataFetching />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
