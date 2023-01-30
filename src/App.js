@@ -1,4 +1,6 @@
 import './index.css';
+import ChildrenProp from './ChildrenProp';
+import DerivingState from './DerivingState';
 import ExampleBrokenStateUpdate from './ExampleBrokenStateUpdate';
 import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunction from './ExampleClassToFunction';
@@ -14,6 +16,8 @@ import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStyleProp from './ExampleStyleProp';
 import ExampleUpdatingStateWithArrays from './ExampleUpdatingStateWithArrays';
 import ExampleUseEffectDataFetching from './ExampleUseEffectDataFetching';
+import PropsDrilling from './PropsDrilling';
+import StateManagement from './StateManagement';
 
 function Header(props) {
   return (
@@ -99,19 +103,19 @@ export default function App() {
       <br />
       <br />
       <br />
+      <DerivingState />
       <br />
       <br />
       <br />
+      <PropsDrilling />
       <br />
       <br />
       <br />
+      <ChildrenProp />
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <StateManagement />
       <br />
       <br />
       <br />
